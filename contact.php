@@ -12,10 +12,6 @@
 	<div class="header">
 		<img src="img/Top.png" alt="BZUK top style">
 	</div>
-	<input type="checkbox" id="nav-toggle" class="nav-toggle">
-	<label for="nav-toggle" class="nav-toggle-label">
-		<span></span>
-	</label>
 	<nav class="main-nav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -31,7 +27,8 @@
 	<p>Kein Problem! Sie erreichen uns unter:
 	<br />Telefon: 0761/48994–170
 	<br />Fax: 0761/48994–169
-	<br />E-Mail: <a href="mailto:info@bzuk-freiburg.de">info@bzuk-freiburg.de</a>
+    <br />E-Mail: <a href="mailto:info@bzuk-freiburg.de">info@bzuk-freiburg.de</a>
+    <p><?php echo 'hi'; ?> </p>
 </body>
 
 </html>
